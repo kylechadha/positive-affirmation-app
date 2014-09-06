@@ -1,0 +1,35 @@
+<h1>Sign up for Melon!</h1>
+
+<form name="signup">
+  <fieldset class="signup__alert">
+    <legend>Where do you want to receive affirmations?</legend>
+    <input type="radio" name="alertType" value="Email" id="alertTypeEmail"><label for="alertTypeEmail">Email</label>
+    <input type="radio" name="alertType" value="Text" id="alertTypeText"><label for="alertTypeText">Text</label>
+    <label class="signup__alert--email hidden">What's your e-mail address?
+      <input type="text" placeholder="kyle.chadha@gmail.com">
+    </label>
+    <label class="signup__alert--number hidden">What's your number?
+      <input type="text" placeholder="(858) 231-0672">
+    </label>
+  </fieldset>
+  <fieldset>
+    <label>What time of day do you prefer?</label>
+    <input type="radio" name="time" value="Morning" id="timeMorning"><label for="timeMorning">Morning</label>
+    <input type="radio" name="time" value="Afternoon" id="timeAfternoon"><label for="timeAfternoon">Afternoon</label>
+    <input type="radio" name="time" value="Evening" id="timeEvening"><label for="timeEvening">Evening</label>
+  </fieldset>
+  <fieldset>
+    <label>How affectionate do you want the affirmations to be?</label>
+    <input type="radio" name="affectionLevel" value="High" id="affectionLevelHigh"><label for="affectionLevelHigh">High</label>
+    <input type="radio" name="affectionLevel" value="Medium" id="affectionLevelMedium"><label for="affectionLevelMedium">Medium</label>
+    <input type="radio" name="affectionLevel" value="Low" id="affectionLevelLow"><label for="affectionLevelLow">Low</label>
+  </fieldset>
+  <fieldset>
+    <label>What types of affirmations do you want?</label>
+    <input type="checkbox" id="affirmationType1"><label for="affirmationType1">Self-Esteem</label>
+    <input type="checkbox" id="affirmationType2"><label for="affirmationType2">Confidence</label>
+    <input type="checkbox" id="affirmationType3"><label for="affirmationType3">Anger Management</label>
+    <input type="checkbox" id="affirmationType4"><label for="affirmationType4">Discipline</label>
+    <input type="checkbox" id="affirmationType5"><label for="affirmationType5">Positivity</label>
+  </fieldset>
+</form>
