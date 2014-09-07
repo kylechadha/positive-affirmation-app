@@ -14,6 +14,7 @@ end
 # Use SCSS for stylesheets, Foundation for styles, and Font Awesome for icons
 gem 'sass-rails', '~> 4.0.0'
 gem 'foundation-rails'
+gem 'foundation_rails_helper'
 gem 'font-awesome-rails'
 
 # Use Pry to debug
